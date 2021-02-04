@@ -3,7 +3,7 @@
 /**
 * main - prints formatted phrase
 *
-* return - 0 if exited without error
+* return: 0
 */
 
 int main(void)
