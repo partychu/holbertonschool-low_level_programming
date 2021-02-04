@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * ain - Printing the size of various types
- * return - Will give 0 when exited
- */
+* main - Printing the size of various types
+* return - Will give 0 when exited
+*/
 
 int main(void)
 {

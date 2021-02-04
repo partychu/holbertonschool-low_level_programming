@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - prints formatted phrase
- *
- * return - 0 if exited without error
- */
+* main - prints formatted phrase
+*
+* return - 0 if exited without error
+*/
 
 int main(void)
 {
