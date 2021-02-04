@@ -1,1 +1,1 @@
-# Holberton School - Low level programming
+Folder containing the C project Hello, World
