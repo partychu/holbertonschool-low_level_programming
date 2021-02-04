@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - prints inputted string
- *
- * Return - 0 if exited without error
- */
+* main - prints inputted string
+*
+* Return: 0
+*/
 
 int main(void)
 {
