@@ -11,7 +11,7 @@ int main(void)
 
 	for (x = 'a'; x <= 'z'; x++)
 	{
-		purchar(x);
+		putchar(x);
 
 		if (x != 'q' || x != 'e')
 			continue;
