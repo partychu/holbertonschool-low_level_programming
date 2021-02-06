@@ -8,20 +8,29 @@
 
 int main(void)
 {
-  int d1, d2, dd1, dd2;
+	int alg1, alg2, i1, i2, j1, j2;
 
-  for (d1 = 0; d1 <= '9'; d1++)
-  {
-    for(d2 = 0; d2 <= '9'; d2++)
-    { putchar(' ');
-        for (dd1 = 0; dd1 <= '9'; dd1++)
-        {
-          for (dd2 = 0; dd2 <= '9'; dd2++)
-          {
-           putchar(',');
-          }
-        }
-    }
-  }
-  return(0);
+	for (alg1 = 0; alg1 <= 98; alg1++)
+	{
+		for (alg2 = alg1 + 1; alg2 <= 99; alg2++)
+		{
+			i1 = (alg1 / 10 + '0');
+			i2 = (alg1 % 10 + '0');
+			j1 = (alg2 / 10 + '0');
+			j2 = (alg2 % 10 + '0');
+
+			putchar(i1);
+			putchar(i2);
+			putchar(' ');
+			putchar(j1);
+			putchar(j2);
+			if ((alg1 != 98))
+			{
+				putchar(',');
+				putchar(' ');
+			}
+		}
+	}
+	putchar('\n');
+	return (0);
 }
