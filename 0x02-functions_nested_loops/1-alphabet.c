@@ -8,7 +8,7 @@ void print_alphabet(void)
 {
 	char bet;
 
-	for (bet = 97; bet <= 122; bet++)
+		for (bet = 97; bet <= 122; bet++)
 		{
 			_putchar(bet);
 		}
