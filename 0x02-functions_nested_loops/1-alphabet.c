@@ -6,7 +6,7 @@
 
 void print_alphabet(void)
 {
-	char bet
+	char bet;
 
 	for (bet = 97; bet <= 122; bet++)
 		{
