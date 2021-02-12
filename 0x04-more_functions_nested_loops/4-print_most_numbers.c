@@ -1,7 +1,13 @@
 #include "holberton.h"
 
-int main(void)
+/**
+ * print_most_numbers - prints 0 -9 but 2 and 4
+ * Return: void
+ *
+ */
 
+void print_most_numbers(void)
+{
 int i;
 
 for (i = 0; i <= 9; i++)
