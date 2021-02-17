@@ -8,11 +8,13 @@
 
 int _atoi(char *s);
 {
-	int i = 0, strl = 0, num = 0, sign = 1, cut = 0;
+	int i = 0, strl = 0, num = 0, sign = 1, end = 0;
 
 	while (s[strl] != '\0')
-		len++;
-	while (i < strl && ok == 0)
+	{
+		strl++;
+	}
+	while (i < strl && end == 0)
 	{
 		if (s[i] == '-')
 			sign *= -1;
@@ -20,9 +22,9 @@ int _atoi(char *s);
 		{
 			num = num * 10 + (s[i] - '0');
 			if (s[i] < '0' && s[i] > '9')
-				ok = 0;
+				end = 0;
 			else
-				ok = 1;
+				end = 1;
 		}
 		i++;
 	}
