@@ -20,11 +20,11 @@ int _atoi(char *s)
 			sign *= -1;
 		if (s[i] >= '0' && s[i] <= '9')
 		{
-			num = num * 10 + (s[i] - '0');
+			num = num * 10 + sign * (s[i] - '0');
 			if (s[i] < '0' && s[i] > '9')
-				end = 0;
-			else
 				end = 1;
+			else
+				end = 0;
 		}
 		i++;
 	}
