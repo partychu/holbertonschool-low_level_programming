@@ -6,7 +6,7 @@
  * Return: integer
  */
 
-int _atoi(char *s);
+int _atoi(char *s)
 {
 	int i = 0, strl = 0, num = 0, sign = 1, end = 0;
 
