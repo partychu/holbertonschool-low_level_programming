@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * atoi - converts as tring to an integer
+ * _atoi - converts as tring to an integer
  * @s: string to be converted
  * Return: integer
  */
@@ -21,10 +21,10 @@ int _atoi(char *s)
 		if (s[i] >= '0' && s[i] <= '9')
 		{
 			num = num * 10 + sign * (s[i] - '0');
-			if (s[i] < '0' && s[i] > '9')
-				end = 1;
-			else
+			if (s[i] >= '0' && s[i] <= '9')
 				end = 0;
+			else
+				end = 1;
 		}
 		i++;
 	}
