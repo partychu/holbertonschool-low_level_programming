@@ -3,6 +3,7 @@
 /**
  * atoi - converts as tring to an integer
  * @s: string to be converted
+ * Return: integer
  */
 
 int _atoi(char *s);
@@ -16,6 +17,14 @@ int _atoi(char *s);
 		if (s[i] == '-')
 			sign *= -1;
 		if (s[i] >= '0' && s[i] <= '9')
-			num = num * 10 + (s[i] - '0')
+		{
+			num = num * 10 + (s[i] - '0');
+			if (s[i] < '0' && s[i] > '9')
+				ok = 0;
+			else
+				ok = 1;
+		}
+		i++;
 	}
+	return (num);
 }
