@@ -23,7 +23,7 @@ char *leet(char *s)
 			{
 				s[idx] = 55;
 			}
-			else if (s[idx] == 79 || s[idx] == 108)
+			else if (s[idx] == 79 || s[idx] == 111)
 			{
 				s[idx] = 48;
 			}
