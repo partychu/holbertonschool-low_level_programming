@@ -12,6 +12,7 @@ char *_strchr(char *s, char c)
 	int len, idx;
 
 	for (len = 0; s[len] != '\0'; len++)
+		;
 		for (idx = 0; idx < len; idx++)
 		{
 			if (s[idx] == c)
