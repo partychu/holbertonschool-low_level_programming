@@ -2,8 +2,8 @@
 #include <stdlib.h>
 
 /**
- * *createarray - creates an array
- * @size - size of array
+ * *create_array - creates an array
+ * @size: size of array
  * @c: string
  */
 
