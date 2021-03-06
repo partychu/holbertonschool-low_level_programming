@@ -16,7 +16,7 @@ void times_table(void)
 		{
 			result = mul * num;
 
-			if ( mul == 0)
+			if (mul == 0)
 				_putchar('0');
 			else if (result >= 10)
 			{
