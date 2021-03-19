@@ -1,4 +1,3 @@
-/* Header for project 0x12 */
 #ifndef LISTS_H
 #define LISTS_H
 
