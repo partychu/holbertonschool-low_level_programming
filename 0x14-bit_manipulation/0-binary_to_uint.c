@@ -5,7 +5,6 @@
  * @b: binary number
  * Return: converted number
  */
-
 unsigned int binary_to_uint(const char *b)
 {
 	int idx;
@@ -28,7 +27,6 @@ unsigned int binary_to_uint(const char *b)
 			conv = 0;
 		else if (b[idx] == '1')
 			conv = 1;
-		
 		res += conv << exp;
 		exp++;
 		idx--;
