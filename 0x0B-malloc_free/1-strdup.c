@@ -2,7 +2,7 @@
 
 /**
  * _strdup - duplicates a string
- * @str - string to be duplicated
+ * @str: string to be duplicated
  * Return: pointer to copied string
  */
 
@@ -15,7 +15,9 @@ char *_strdup(char *str)
 		return (NULL);
 
 	for (size = 0; str[size] !=  '\0'; size++)
+	{
 		;
+	}
 
 	dup = malloc(sizeof(char) * (size + 1));
 
@@ -26,7 +28,8 @@ char *_strdup(char *str)
 	}
 
 	for (copy = 0; copy < size; copy++)
+	{
 		dup[copy] = str[copy];
-
+	}
 	return (dup);
 }
