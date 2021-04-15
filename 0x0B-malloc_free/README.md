@@ -1,1 +1,1 @@
-Contains answers for 0x0B
+This folder contains the answers for project 0x0B.
