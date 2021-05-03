@@ -31,12 +31,11 @@ dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 
 	pointer = *head;
 	new->prev = pointer;
-	
+
 	while (pointer->next != NULL)
 		pointer = pointer->next;
 
 	pointer->next = new;
-
 
 	return (new);
 }
